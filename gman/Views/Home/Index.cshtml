@@ -1,0 +1,98 @@
+﻿@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gman @ViewData["Title"]</title>
+
+    <environment names="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/gman.css" />
+
+    </environment>
+    <environment names="Staging,Production">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+    @Html.Raw(JavaScriptSnippet.FullScript)
+</head>
+<body>
+    <nav class="navbar">
+        <div class="">
+            <div class="">
+                <a asp-controller="Home" asp-action="Index" class="navbar-brand"><img id="logo" src="~/images/transparent_text_effect.png" /></a>
+            </div>
+            <div class="">
+
+                <div class="" style="padding-top:15px;float:right;color:white">
+
+                    <a class="navbutton" style="text-decoration:none;color:white" id="home" asp-area="" asp-controller="Home" asp-action="Index">HOME</a> /
+                    <a class="navbutton" style="text-decoration:none;color:white" id="about" asp-area="" asp-controller="Home" asp-action="About">ABOUT</a> /
+                    <a class="navbutton" style="text-decoration:none;color:white" id="skills" asp-area="" asp-controller="Home" asp-action="Skills">SKILLS</a> /
+                    <a class="navbutton" style="text-decoration:none;color:white" id="projects" asp-area="" asp-controller="Home" asp-action="Projects">PROJECTS</a> /
+                    <a class="navbutton" style="text-decoration:none;color:white" id="contact" asp-area="" asp-controller="Home" asp-action="Contact">CONTACT</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <div class="main">
+
+
+        @{
+            ViewData["Title"] = "";
+        }
+        <div id="work">
+            @*<p>
+                    <center id="gman">------- profesional bio -------</center>
+                </p>*@
+            <p>
+                <center hidden id="name">
+                    <span class="colorchange">H</span><span class="colorchange">I</span><span class="colorchange">,</span>
+                    <span class="colorchange">I</span><span class="colorchange">'</span><span class="colorchange">M</span>
+                    <span class="colorchange">G</span><span class="colorchange">U</span><span class="colorchange">Y</span>
+                </center>
+                <center hidden id="info">
+                    I'M A DEDICATED FULLSTACK DEVELOPER CURRENTLY <br /> WORKING AT EMPTY CUBICLE
+                </center>
+                <center hidden id="info2">
+                    I SPECIALISE IN BACKEND ARCHITECTURE AND LOVE TO TAKE <br /> ON NEW CHALLENGES
+                </center>
+                <center hidden id="info">
+                    I'M A STAUNCH FULLSTACK DEVELOPER CURRENTLY <br /> WORKING AT EMPTY CUBICLE
+                </center>
+            </p>
+        </div>
+        <footer>
+            <p>&copy; 2017 - Gman</p>
+        </footer>
+    </div>
+
+    <environment names="Development">
+        <script src="https://code.jquery.com/jquery-3.2.1.js"
+                integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+                crossorigin="anonymous"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/gman.js" asp-append-version="true"></script>
+
+    </environment>
+    <environment names="Staging,Production">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+</body>
+</html>

@@ -1,0 +1,84 @@
+﻿.navbar {
+    background-color: #ffc300;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 10px;
+}
+body {
+    background-color: #ffc300
+}
+#gman {
+    font-size: 25px;
+}
+#gman::before{
+
+}
+#logo {
+    height:50px;
+}
+#name {
+    font-size: 150px;
+}
+body {
+    font-family: 'Agency FB';
+    background-color: #ffc300;
+    color: white;
+}
+.navbutton :hover{
+    text-decoration:solid;
+}
+footer {
+    font-size:18px;
+    float: left;
+    position:fixed;
+    padding-left:10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.main {
+    height:100%;
+    width:100%
+}
+#info {
+    font-size: 40px;
+    color: #252525
+}
+#info2 {
+    font-size: 40px;
+    color: #252525
+}
+.blue {
+    color: #02c9c9;
+}
+.pink {
+    color: #FF74CA;
+}
+.black {
+    color: #252525;
+}
+.grey {
+    color: #888888;
+}
+.green {
+    color: #26FF1C;
+}
+.white {
+    color: white;
+}
+.red {
+    color: #F84B4B
+}
+#work {
+    height: 400px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+

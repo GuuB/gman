@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Triangle pattern generator</title>
+
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <nav class="navbar-default">
+        <div class="">
+            <div class="">
+                <a asp-controller="Home" asp-action="Index" class="navbar-brand"><img id="logo" src="~/images/transparent_text_effect.png" /></a>
+            </div>
+            <div class="">
+
+                <div class="" style="padding-top:15px;float:right;color:white">
+
+                    <a style="text-decoration:none;color:white" id="home" asp-area="" asp-controller="Home" asp-action="Index">HOME</a> /
+                    <a style="text-decoration:none;color:white" id="about" asp-area="" asp-controller="Home" asp-action="About">ABOUT</a> /
+                    <a style="text-decoration:none;color:white" id="skills" asp-area="" asp-controller="Home" asp-action="Skills">SKILLS</a> /
+                    <a style="text-decoration:none;color:white" id="projects" asp-area="" asp-controller="Home" asp-action="Projects">PROJECTS</a> /
+                    <a style="text-decoration:none;color:white" id="contact" asp-area="" asp-controller="Home" asp-action="Contact">CONTACT</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <div id="container" class="container">
+        <div id="output" class="container">
+        </div>
+    </div>
+    <div hidden id="controls" class="controls">
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

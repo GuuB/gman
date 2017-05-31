@@ -1,0 +1,9 @@
+c:\users\yugbo\OneDrive\Documents\Visual Studio 2017\Projects\Gman\Gman\bin\Debug\netcoreapp1.1\Gman.deps.json
+c:\users\yugbo\OneDrive\Documents\Visual Studio 2017\Projects\Gman\Gman\bin\Debug\netcoreapp1.1\Gman.runtimeconfig.json
+c:\users\yugbo\OneDrive\Documents\Visual Studio 2017\Projects\Gman\Gman\bin\Debug\netcoreapp1.1\Gman.runtimeconfig.dev.json
+c:\users\yugbo\OneDrive\Documents\Visual Studio 2017\Projects\Gman\Gman\bin\Debug\netcoreapp1.1\Gman.dll
+c:\users\yugbo\OneDrive\Documents\Visual Studio 2017\Projects\Gman\Gman\bin\Debug\netcoreapp1.1\Gman.pdb
+c:\users\yugbo\OneDrive\Documents\Visual Studio 2017\Projects\Gman\Gman\obj\Debug\netcoreapp1.1\Gman.csprojResolveAssemblyReference.cache
+c:\users\yugbo\OneDrive\Documents\Visual Studio 2017\Projects\Gman\Gman\obj\Debug\netcoreapp1.1\Gman.AssemblyInfo.cs
+c:\users\yugbo\OneDrive\Documents\Visual Studio 2017\Projects\Gman\Gman\obj\Debug\netcoreapp1.1\Gman.dll
+c:\users\yugbo\OneDrive\Documents\Visual Studio 2017\Projects\Gman\Gman\obj\Debug\netcoreapp1.1\Gman.pdb
